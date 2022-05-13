@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+* {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+body {
+  background-color: #e5c8c1;
+  color: white;
+  padding-bottom: 30px;
+}
+.space{
+  opacity: 0;
+height:15vw;
+}
+h1,h2 {
+  position: relative;
+  font-family: 'Smooch Sans', sans-serif;
+  text-align: center;
+  font-weight: 1000px;
+}
+h2{
+  font-size:60px;
+}
+h3 {
+  font-family: 'Hubballi', cursive;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 1000px;
+  padding:20px;
+}
+h1 {
+  font-size: 100px;
+}
+
+h1.title {
+  vertical-align: middle;
+  padding-top: 30vh;
+}
+h3.title{
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+.content {
+  width: 70vw;
+  min-height: 50vh;
+  margin: -30vh auto 30vh auto;
+  padding: 50px;
+  background-color: #E29A6E;
+  border-radius: 20px;
+  font-family: 'Hubballi', cursive;
+  font-size: 40px;
+  color: #f0e1be;
+  line-height: 80px;
+  max-height: 1200px;
+}
+img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  padding-bottom: 300px;
+}
+.content p {
+  margin: 5px;
+  padding: 10px;
+}
+.boxParent{
+  display:flex;
+  max-height: 1000px;
+}
+.boxParent > div {
+  max-width: 1000px;
+  align-content: center;
+  justify-content: center;
+}
+.box{
+  display:flex;
+  justify-content:center;
+  max-width: 100vh;
+}
+.smallbox{
+  display:flex;
+}
